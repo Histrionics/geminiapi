@@ -45,4 +45,4 @@ If this has been useful to you, please donate so I can keep on making stuff.
 Contribute
 ========
 
-If you want to add any new features, or improve existing ones, feel free to send a pull request!
+If you are interested in adding any new features or functionality, feel free to send a pull request!
