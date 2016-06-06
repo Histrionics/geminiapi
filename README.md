@@ -1,8 +1,6 @@
-![Gemini API](https://docs.gemini.com)
+![Gemini API](https://winklevosscapital.com/wp-content/uploads/2015/01/gemini-logo-2.png)
 
-Unofficial and open-source Python 3 module for [Gemini API](https://gemini.com/).
-
-Maneet Khaira
+Unofficial and open-source Python 3 module for [Gemini API](https://docs.gemini.com/).
 
 Dependencies
 ========
@@ -12,27 +10,26 @@ Dependencies
 Usage
 ========
     
-    First, install requests.
-    ```
-    pip install requests
-    ```
+First, install requests.
+```
+pip install requests
+```
 
 
-    ```
-    import gemini
+```
+import gemini
 
-    # Set third argument to True if you are experimenting on api.sandbox.gemini.com
-    session = GeminiSession("my_api_key", "my_api_secret", True)
+# Set third argument to True if you are experimenting on api.sandbox.gemini.com
+session = GeminiSession("my_api_key", "my_api_secret", True)
 
-    # Buy .01 BTC at $575/BTC and print the response
-    print(sesh.new_order("btcusd", ".01", "575","buy"))
-    ```
+# Buy .01 BTC at $575/BTC and print the response
+print(sesh.new_order("btcusd", ".01", "575","buy"))
+```
 
-API Reference
+Reference
 ========
 
-## TODO: Finish this section. 
-
+TODO: Finish this section. 
 For now, see docstrings in gemini.py
 
 Donations
