@@ -23,7 +23,7 @@ import gemini
 session = GeminiSession("my_api_key", "my_api_secret", True)
 
 # Buy .01 BTC at $575/BTC and print the response
-print(sesh.new_order("btcusd", ".01", "575","buy"))
+print(session.new_order("btcusd", ".01", "575","buy"))
 ```
 
 Reference
